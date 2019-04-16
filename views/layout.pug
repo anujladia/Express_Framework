@@ -1,0 +1,16 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content
+      h1= title
+      table.exampletable
+        tr.examplerow
+          each key in Object.keys(content[0])
+            th.examplecell= key
+        each obj in content
+          tr.examplerow
+            each i in Object.keys(obj)
+              td.examplecell= obj[i]

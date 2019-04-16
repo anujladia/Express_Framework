@@ -1,0 +1,27 @@
+body {
+  padding: 30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.exampletable {
+  display: flex;
+  height: 80vh;
+  width: 90vw;
+  overflow: scroll;
+  border: 1px solid #888;
+}
+
+.examplerow {
+  height: 40px;
+}
+
+.examplecell {
+  padding: 5px;
+  overflow: scroll;
+  border-bottom: 1px solid #999;
+  border-right: 1px solid #999;
+}

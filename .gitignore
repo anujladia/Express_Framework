@@ -1,0 +1,24 @@
+## Ignore standard files
+*.conf
+*.log
+*.rdb
+.DS_Store
+.env
+*~$
+
+## ignore npm modules
+/node_modules
+
+## ignore bower installations
+/bower_components
+
+## Auto generated files must be in dist, ignore them
+/dist/assets/*
+
+## Ignore auto generated package-lock file
+package-lock.json
+
+## escape ignoring
+!.gitignore
+!.gitkeep
+coverage/
